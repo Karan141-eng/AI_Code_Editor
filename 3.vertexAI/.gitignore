@@ -1,0 +1,27 @@
+# Dependencies - all folders
+**/node_modules/
+node_modules/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Build files
+**/dist/
+**/build/
+
+# Logs
+*.log
+
+# Google Cloud credentials
+**/serviceAccountKey.json
+**/*service-account*.json
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+**/node_modules/
